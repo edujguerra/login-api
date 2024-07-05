@@ -1,6 +1,5 @@
 package br.com.fiap.loginapi.controller;
 
-import br.com.fiap.loginapi.entity.User;
 import br.com.fiap.loginapi.service.UsuarioService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

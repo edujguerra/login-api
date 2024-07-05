@@ -8,8 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import org.springframework.web.client.RestTemplate;
-
 @Service
 public class UsuarioService {
 
@@ -32,7 +30,7 @@ public class UsuarioService {
         } else {
             return ResponseEntity
                     .status(HttpStatus.NOT_FOUND)
-                    .body("Cliente não encontrado.");
+                    .body("Usuário não encontrado.");
         }
     }
 }

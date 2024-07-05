@@ -6,12 +6,12 @@ import jakarta.validation.constraints.Size;
 
 public record AuthenticationRequest(
 
-        @NotNull(message = "Email cannot be null")
+        @NotNull(message = "Email não pode ser vazio.")
         @Email
         String email,
 
-        @NotNull(message = "Password is required")
-        @Size(min = 6, message = "Password must be at least 6 characters long")
+        @NotNull(message = "Password não pode ser vazio.")
+        @Size(min = 6, message = "Mínimo de 6 characters.")
         String password
 ) {
 }
