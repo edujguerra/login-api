@@ -11,8 +11,8 @@
     <groupId>br.com.fiap</groupId>
     <artifactId>mslogin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>login-api</name>
-    <description>mslogin</description>
+    <name>mslogin</name>
+    <description>Registro e login de usuários.</description>
     <properties>
         <java.version>17</java.version>
         <junit.version>5.9.3</junit.version>
