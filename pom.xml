@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.com.fiap</groupId>
-    <artifactId>login-api</artifactId>
+    <artifactId>mslogin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>login-api</name>
-    <description>login-api</description>
+    <description>mslogin</description>
     <properties>
         <java.version>17</java.version>
         <junit.version>5.9.3</junit.version>

@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8089
 
 mysql:
   username: root
@@ -27,7 +27,4 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
-  application:
-    name: AUTH-API
-
 
